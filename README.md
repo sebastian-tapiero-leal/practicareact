@@ -6,14 +6,14 @@ _Aqui podrás encontrar una calculadora con operaciones basicas las cuales son: 
 
 _Para realizar una copia de este proyecto, se debe descargar extensiones como lo son:_
 
-_* Node.js_
-_* React_
+* _Node.js_
+* _React_
 
 _El directorio de extensiones lo puedes encontrar aqui:_
 
 ### Pre-requisitos :scroll:
 
-_- [Node](https://nodejs.org/es/)_
+* _[Node](https://nodejs.org/es/)_
 
 _Para verificar la instalacion del Node, se utiliza el siguiente comando en la consola:_
 ```
