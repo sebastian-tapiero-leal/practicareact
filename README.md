@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Proyecto Calculadora ADSI :computer:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_Aqui podrás encontrar una calculadora con operaciones basicas las cuales son: Suma, Resta, Multiplicación y División_
 
-## Available Scripts
+## Comenzando :open_file_folder:
 
-In the project directory, you can run:
+_Para realizar una copia de este proyecto, se debe descargar extensiones como lo son:_
 
-### `npm start`
+_- Node.js_
+_- React_
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+_El directorio de extensiones lo puedes encontrar aqui:_
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Pre-requisitos :scroll:
 
-### `npm test`
+_- [Node](https://nodejs.org/es/)_
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+_Para verificar la instalacion del Node, se utiliza el siguiente comando en la consola:_
+```
+node -v
+```
+_La respuesta esperada en la consola es:_
+```
+v14.16.0
+```
+_Tambien debemos verificar que tengamos instalado npm, el cual se puede verificar con:_
+```
+npm -v
+```
+_La respuesta esperada en la consola es:_
+```
+7.6.3
+```
+_Después de realizar la instalacion del node.js, debemos ejecutar por consola el siguiente comando:_
+```
+npm install -g npm@latest
+```
+_Este comando descarga la ultima versión disponible de node.js_
 
-### `npm run build`
+_Después de realizar la instalacion de la ultima versión de node j.s, debemos ejecutar por consola el siguiente comando:_
+```
+npm cache clean --force
+```
+_Este comando limpia la cache del node.js_
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_Después de limpiar la cache del node.js, debemos ejecutar por consola el siguiente comando:_
+```
+npm install -g create-react-app
+```
+_Este comando descarga e instala todos los paquetes de react en el computador._
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Creación :bulb:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_Primero debemos ubicarnos en la ruta donde deseemos crear el proyecto, debemos especificar la ruta por consola:_
+_**Ejemplo de la ruta**_
+```
+cd C:\Users\ejemplo\Desktop\
+```
+_Como respuesta en la consola nos mostrara la siguiente ruta:_
+```
+C:\Users\ejemplo\Desktop\>
+```
+_Para realizar la creación del proyecto ejecutaremos por consola el siguiente comando:_
+_**Ejemplo del nombre del proyecto**_
+```
+create-react-app practicareact
+```
+_Después de realizar la creacion del proyecto lo ejecutaremos con el siguiente comando:_
+```
+npm start
+```
+_Se iniciara el proyecto y si el arranque es exitoso mostrara el siguiente mensaje en la consola y abrira el proyecto en el navegador:_
 
-### `npm run eject`
+![img](https://miro.medium.com/max/1136/1*AMI3Jk_efWdyDfGlFAFEPQ.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Construido con :hammer:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+_- [Node](https://nodejs.org/es/)_
+_- [React](https://es.reactjs.org/)_
+_- [Visual Studio Code](https://code.visualstudio.com/)_
+_- [Material-UI](https://material-ui.com/)_
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Autor :black_nib:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_**Sebastian Tapiero Leal** - [sebastian-tapiero-leal](https://github.com/sebastian-tapiero-leal)_
