@@ -31,15 +31,15 @@ _La respuesta esperada en la consola es:_
 ```
 7.6.3
 ```
-_Después de realizar la instalacion del node.js, debemos ejecutar por consola el siguiente comando:_
+_Después de realizar la instalacion del node.js, el siguiente paso es ejecutar por consola el siguiente comando:_
 ```
 npm install -g npm@latest
 ```
-_Este comando descarga la ultima versión disponible de node.js, debemos ejecutar por consola el siguiente comando:_
+_Este comando descarga la ultima versión disponible de node.js, el siguiente paso es ejecutar por consola el siguiente comando:_
 ```
 npm cache clean --force
 ```
-_Este comando limpia la cache del node.js, debemos ejecutar por consola el siguiente comando:_
+_Este comando limpia la cache del node.js, el siguiente paso es ejecutar por consola el siguiente comando:_
 ```
 npm install -g create-react-app
 ```
